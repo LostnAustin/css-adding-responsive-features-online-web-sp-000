@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1108px) {
+  .wrapper { width: 90%; }
+
+#social {
+  position: absolute;
+  width: 82px auto 4px;
+  }
+}
+
+@media only screen and (max-width: 900px)  {
+  body {
+    font-size: 85%;
+  }
+  #logo.h1 {
+    width: 35px;
+    height: 35px;
+  }
+  #logo.h2 {
+    font-size: 2.2em;
+  }
+  #social {
+    top: 72px;
+  }
+  .col-3.p {
+    .column {
+      width: 33.333%;
+      float: left;
+    }
+  }
+}
