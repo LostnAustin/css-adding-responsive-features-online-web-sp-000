@@ -11,20 +11,42 @@
   body {
     font-size: 85%;
   }
-  #logo.h1 {
+  #logo h1 {
     width: 35px;
     height: 35px;
   }
-  #logo.h2 {
+  #logo h2 {
     font-size: 2.2em;
   }
   #social {
     top: 72px;
   }
-  .col-3.p {
+  .col-3 p {
     .column {
       width: 33.333%;
       float: left;
     }
   }
+
+  @media only screen and (max-width: 750px)  {
+    #navbar nav a {
+      font-size: 0.9em;
+    }
+    .col-3 p {
+      width: 100%;
+      float: none;
+    }
+    .col-1, .col-2, .col-3 {
+      width: 100%;
+      margin-left: 0;
+      float: none;
+    }
+    .border-right {
+      border: 0;
+    }
+    #details div {
+      height: auto;
+    }
+  }
+
 }
